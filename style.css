@@ -173,9 +173,6 @@ footer {
   justify-content: space-around;
 }
 
-.divider {
-  margin: 20px;
-}
 .social {
   display: flex;
   justify-content: space-between;
@@ -184,4 +181,37 @@ footer {
 .socials {
   width: 20px;
   /* display: flex; */
+}
+
+.affliation-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1px;
+}
+.affliation-container {
+  width: 100%;
+  background-image: url(./images/t1.jpg);
+}
+.affliation-logo {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  width: 80%;
+  margin: 0 auto;
+}
+.affliation-logo img {
+  width: 170px;
+  margin: 10px;
+}
+
+.font-2 {
+  font-size: 45px;
+  margin: 20px;
+}
+.footer-1 {
+  background-color: rgb(50, 50, 75);
+  color: white;
+  padding: auto;
 }
